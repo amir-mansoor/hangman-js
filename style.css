@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 80%;
+  margin:20px auto;
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  float: right;
+}
+
+#dashes {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.button {
+  border: 1px solid white;
+  padding:8px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 0px 1px black;
+}
+
+#keyboard {
+  display: grid;
+  grid-template-columns: repeat(7,1fr);
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}

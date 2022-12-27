@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Hangman</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Hangman</h1>
+      <div class="center">
+        <div class="right">Wrong Guesses: <span id="mistakes">0</span> of <span id="wrong"></span></div>
+        <img src="./images/0.jpg" />
+        <p>Guess the word</p>
+        <p id="dashes"></p>
+        <p class="hidden">You Lost The Game!</p>
+        <div id="keyboard"></div>
+        <button style="font-size:17px;margin-top:5px;font-weight:bold;padding:5px;border:none" onclick="reset()" type="button">Reset</button>
+      </div>
+    </div>
+
+    <script src="main.js">
+
+    </script>
+  </body>
+</html>
